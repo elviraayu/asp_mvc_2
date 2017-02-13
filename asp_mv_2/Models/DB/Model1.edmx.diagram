@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c8972337bab74d7499cfba33347219aa" Name="Diagram1">
+        <EntityTypeShape EntityType="DEMODB2Model.LOOKUPRole" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODB2Model.SYSUser" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODB2Model.SYSUserProfile" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODB2Model.SYSUserRole" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="DEMODB2Model.FK__SYSUserRo__LOOKU__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODB2Model.FK__SYSUserPr__SYSUs__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODB2Model.FK__SYSUserRo__SYSUs__22AA2996" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
